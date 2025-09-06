@@ -117,6 +117,7 @@ class CheckDispatchArgumentTypesCompatibleWithClassConstructorRule implements Ru
             ),
             $scope,
             $constructorReflection->getDeclaringClass()->isBuiltin(),
+            null,
             $node,
             'staticMethod',
             TrinaryLogic::createYes(),
