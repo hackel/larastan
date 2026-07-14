@@ -151,7 +151,7 @@ function __($key = null, $replace = [], $locale = null) {}
  * @template TReturn of mixed
  *
  * @param  TValue  $value
- * @param  ?callable(TValue): TReturn  $callback
+ * @param  ?callable(TValue~null): TReturn  $callback
  * @return ($callback is null ? mixed : ($value is null ? null : TReturn))
  */
 function optional($value = null, ?callable $callback = null) {}
